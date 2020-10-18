@@ -5,7 +5,7 @@ date_default_timezone_set('America/Fortaleza');
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
 header("Access-Control-Allow-Methods: GET, POST");
-//header('Content-type: application/json');
+header('Content-type: application/json');
 
 require 'class/vendor/autoload.php';
 
